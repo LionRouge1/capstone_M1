@@ -4,4 +4,4 @@ node_modules/
 #json files
 *.json
 .eslintrc.json
-.styelintrc.json
+.stylelintrc.json
