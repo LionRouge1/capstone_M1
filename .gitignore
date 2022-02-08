@@ -5,3 +5,4 @@ node_modules/
 *.json
 .eslintrc.json
 .stylelintrc.json
+.hintrc
