@@ -111,9 +111,7 @@ h2::after {
   background-image: url('../images/backgrd_partner.jpg');
 }
 
-.partner > 
-
-.partner > div > i {
+.partner > .partner > div > i {
   margin: 0 14px;
   color: rgb(202 198 195);
 }
@@ -133,7 +131,7 @@ footer > .logo {
   display: block;
 }
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 800px) {
   .past p {
     text-align: center;
   }
@@ -179,7 +177,7 @@ footer > .logo {
   .logo {
     height: 50px;
   }
-  
+
   footer > .logo a {
     color: white;
   }

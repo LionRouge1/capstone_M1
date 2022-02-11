@@ -21,7 +21,7 @@ let count = 0;
 const Lks = document.links;
 const page = document.URL;
 
-for (let i =1; i < 6; i ++) {
+for (let i = 1; i < 6; i += 1) {
   if (Lks[i].href === page) {
     count = i;
   }
