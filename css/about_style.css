@@ -2,15 +2,13 @@
 
 article {
   width: 100%;
-  display: grid;
-  justify-content: center;
   padding: 20px;
 }
 
 article p {
   font-family: 'Poppins', sans-serif;
   margin: 10px;
-  color: #b5b4b4;
+  color: #757575;
   font-weight: bold;
 }
 
@@ -20,6 +18,11 @@ article p {
   text-align: center;
   color: #272a31;
   border: 2px solid #f1f0f0;
+}
+
+.creative {
+  display: grid;
+  justify-content: center;
 }
 
 .creative > div {
@@ -105,7 +108,18 @@ h2::after {
 
 .partner {
   display: grid;
-  background-image: url('../images/sndbg.jpg');
+  background-image: url('../images/backgrd_partner.jpg');
+}
+
+.partner > 
+
+.partner > div > i {
+  margin: 0 14px;
+  color: rgb(202 198 195);
+}
+
+.partner .fa-supple {
+  color: white;
 }
 
 footer {
@@ -117,4 +131,56 @@ footer {
 
 footer > .logo {
   display: block;
+}
+
+@media only screen and (min-width: 800px){
+  .past p {
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+  }
+
+  .creative p {
+    width: 645px;
+    text-align: center;
+  }
+
+  .creative p::after {
+    content: ' Or click on the "join" link inside the menu. Global School logo have been change, this is the new logo.';
+  }
+
+  .container > div {
+    width: 350px;
+  }
+
+  .past_img p {
+    font-size: 14px;
+  }
+
+  .past_img h3 {
+    font-size: 32px;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  footer {
+    background-color: #272a31;
+    color: white;
+    height: 106px;
+  }
+
+  .logo {
+    height: 50px;
+  }
+  
+  footer > .logo a {
+    color: white;
+  }
 }
