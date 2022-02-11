@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-For the link to the live demo, [Click here]
+For the link to the live demo, [Click here](https://lionrouge1.github.io/capstone_M1/)
 
 
 ## Authors
