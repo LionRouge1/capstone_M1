@@ -1,6 +1,6 @@
 const humber = document.querySelector('.menu_bar');
-const menu = document.querySelector('nav ul');
-const nav = document.querySelector('nav');
+const menu = document.querySelector('.Lnav ul');
+const nav = document.querySelector('.Lnav');
 
 humber.addEventListener('click', () => {
   if (menu.style.display === 'grid') {

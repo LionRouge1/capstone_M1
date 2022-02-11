@@ -1,5 +1,5 @@
 @media only screen and (min-width: 800px) {
-  header {
+  .white_bar {
     position: fixed;
     background-color: white;
     z-index: 100;
@@ -17,11 +17,11 @@
     height: 50px;
   }
 
-  nav {
+  .Lnav {
     width: 50%;
   }
 
-  nav ul {
+  .Lnav ul {
     display: flex;
     justify-content: flex-end;
     position: relative;
@@ -29,14 +29,14 @@
     height: 70px;
   }
 
-  nav ul li {
+  .Lnav ul li {
     list-style: none;
     width: 150px;
     justify-content: center;
     align-items: center;
   }
 
-  nav ul li a {
+  .Lnav ul li a {
     text-decoration: none;
     color: #272a31;
     font-size: 16px;
