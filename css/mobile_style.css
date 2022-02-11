@@ -1,7 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+
 @font-face {
-  font-family: cocogoose;
-  src: url(https://www.dafont.com/cocogoose.font);
+  font-family: 'Cocogoose', sans-serif;
+  src: url(fonts/cocogoose-pro.regular.ttf);
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -20,11 +23,18 @@ header {
 .logo {
   width: 150px;
   height: inherit;
-  display: flex;
   align-items: center;
   justify-content: center;
   margin: 10px 10%;
   display: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  font-family: 'Cocogoose', sans-serif;
+  font-weight: 100;
+  color: #272a31;
+  font-size: 18px;
 }
 
 .logo > a {
@@ -32,7 +42,13 @@ header {
   font-size: 20px;
   text-decoration: none;
   line-height: 24px;
-  font-family: cocogoose;
+  font-family: 'Cocogoose', sans-serif;
+}
+
+nav ul li:hover a {
+  border: 3px solid #f16755;
+  color: #f16755;
+  padding: 10px;
 }
 
 .logo > a span {
@@ -73,19 +89,6 @@ nav ul li {
   height: 40px;
 }
 
-nav ul li:hover a {
-  border: 3px solid #f16755;
-  color: #f16755;
-  padding: 10px;
-}
-
-nav ul a {
-  text-decoration: none;
-  font-family: cocogoose;
-  font-weight: 100;
-  color: #272a31;
-  font-size: 18px;
-}
 .menu_bar > i {
   font-size: 50px;
 }
@@ -99,6 +102,7 @@ nav ul a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .first_sec > div {
   width: 90%;
   margin: 100px auto;
@@ -115,10 +119,9 @@ nav ul a {
 
 .title {
   font-size: 40px;
-  font-family: cocogoose;
+  font-family: 'Cocogoose', sans-serif;
   font-weight: 900;
   background-image: url('../images/set.jpg');
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   line-height: 46px;
@@ -142,7 +145,7 @@ nav ul a {
 .lieu {
   color: #272a31;
   font-size: 20px;
-  font-family: cocogoose;
+  font-family: 'Cocogoose', sans-serif;
   font-weight: 300;
   word-spacing: -3px;
 }
@@ -172,7 +175,7 @@ nav ul a {
   line-height: 40px;
 }
 
-.Mpr::after{
+.Mpr::after {
   content: ' ';
   display: block;
   width: 53px;
@@ -206,12 +209,13 @@ nav ul a {
   height: 50px;
   background-color: #f16755;
   color: white;
-  font-family: cocogoose;
+  font-family: 'Cocogoose', sans-serif;
   border: none;
   width: inherit;
   margin: 10px auto;
   padding: 10px;
 }
+
 .trd_session {
   margin: 10px 0;
 }
@@ -284,6 +288,10 @@ nav ul a {
   box-shadow: 0 0 51px -15px black;
 }
 
+.fa-caret-down {
+  color: #f16755;
+}
+
 .partner {
   display: none;
 }
@@ -291,9 +299,9 @@ nav ul a {
 footer {
   display: none;
 }
+
 @media only screen and (max-width: 402px) {
   .title {
     font-size: 9vw;
   }
-
 }
