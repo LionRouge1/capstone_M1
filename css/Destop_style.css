@@ -2,6 +2,7 @@
   header {
     position: fixed;
     background-color: white;
+    z-index: 100;
   }
 
   .logo {

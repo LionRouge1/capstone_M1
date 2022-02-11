@@ -20,6 +20,13 @@ header {
   background-color: transparent;
 }
 
+.active a {
+  border: 3px solid #f16755;
+  color: #f16755;
+  font-weight: bold;
+  padding: 10px;
+}
+
 .logo {
   width: 150px;
   height: inherit;
