@@ -36,8 +36,8 @@ const header = document.querySelector('.white_bar');
 const posit = header.offsetTop;
 window.onscroll = () => {
   if (window.pageYOffset > posit) {
-    header.classList.add("sticky");
+    header.classList.add('sticky');
   } else {
-    header.classList.remove("sticky");
+    header.classList.remove('sticky');
   }
-}
+};

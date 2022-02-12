@@ -34,20 +34,20 @@
   display: none;
 }
 
-.Lnav ul a {
-  text-decoration: none;
-  font-family: 'Cocogoose', sans-serif;
-  font-weight: 100;
-  color: #272a31;
-  font-size: 18px;
-}
-
 .logo > a {
   color: #272a31;
   font-size: 20px;
   text-decoration: none;
   line-height: 24px;
   font-family: 'Cocogoose', sans-serif;
+}
+
+.Lnav ul a {
+  text-decoration: none;
+  font-family: 'Cocogoose', sans-serif;
+  font-weight: 100;
+  color: #272a31;
+  font-size: 18px;
 }
 
 .Lnav ul li:hover a {
@@ -209,7 +209,7 @@ main {
 }
 
 .program > h3 {
-  color: #ec5242
+  color: #ec5242;
 }
 
 .snd_section button {
