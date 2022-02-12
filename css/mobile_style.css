@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 @font-face {
   font-family: cocogoose;
@@ -9,6 +9,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.dark_bar {
+  display: none;
 }
 
 .white_bar {
@@ -46,13 +51,13 @@
 }
 
 .Lnav ul li:hover a {
-  border: 3px solid #f16755;
-  color: #f16755;
+  border: 3px solid #ec5242;
+  color: #ec5242;
   padding: 10px;
 }
 
 .logo > a span {
-  color: #f16755;
+  color: #ec5242;
 }
 
 .Lnav {
@@ -79,7 +84,6 @@
 
 .Lnav ul li {
   list-style: none;
-  color: #272a31;
   text-align: center;
   display: flex;
   align-items: center;
@@ -91,6 +95,10 @@
 
 .menu_bar > i {
   font-size: 50px;
+}
+
+main {
+  background-color: #f6f6f7;
 }
 
 .first_sec {
@@ -105,16 +113,15 @@
 
 .first_sec > div {
   width: 90%;
-  margin: 100px auto;
+  margin: 60px auto;
 }
 
 .wel {
-  color: #d42a14;
-  font-size: 32px;
-  line-height: 40px;
+  color: #ec5242;
+  font-size: 19px;
+  line-height: 12px;
   font-weight: bold;
   margin: 20px 0;
-  font-family: 'Poppins', sans-serif;
 }
 
 .title {
@@ -132,22 +139,22 @@
   margin: 20px 0;
   line-height: 30px;
   padding: 10px;
-  background-color: #f7f7fb;
+  background-color: #f6f6f7;
 }
 
 .hrs {
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
   color: #272a31;
   font-size: 28px;
+  margin: 10px;
 }
 
 .lieu {
   color: #272a31;
   font-size: 20px;
-  font-family: 'Cocogoose', sans-serif;
   font-weight: 300;
-  word-spacing: -3px;
+  font-weight: 500;
+  margin: 10px;
 }
 
 .snd_section {
@@ -169,7 +176,7 @@
   width: 200px;
   height: 40px;
   display: block;
-  color: white;
+  color: #d3d3d3;
   margin: 20px auto;
   position: relative;
   line-height: 40px;
@@ -181,7 +188,7 @@
   width: 53px;
   height: 1px;
   position: absolute;
-  background-color: #f16755;
+  background-color: #ec5242;
   left: 44px;
 }
 
@@ -195,29 +202,25 @@
   grid-gap: 10px;
   height: 100px;
   background-color: rgba(39, 42, 49, 0.5);
-  color: white;
+  color: #d3d3d3;
   margin: 8px 0;
   padding: 0 20px;
   align-items: center;
 }
 
 .program > h3 {
-  color: #f16755;
+  color: #ec5242
 }
 
 .snd_section button {
   height: 50px;
-  background-color: #f16755;
-  color: white;
+  background-color: #ec5242;
+  color: #d3d3d3;
   font-family: 'Cocogoose', sans-serif;
   border: none;
   width: inherit;
   margin: 10px auto;
   padding: 10px;
-}
-
-.trd_session {
-  margin: 10px 0;
 }
 
 .trd_session > h2 {
@@ -236,7 +239,7 @@
   display: block;
   width: 53px;
   height: 1px;
-  background-color: #f16755;
+  background-color: #ec5242;
   left: 25px;
   color: #272a31;
 }
@@ -260,7 +263,7 @@
 }
 
 .speaker h4 {
-  color: #f16755;
+  color: #ec5242;
   font-size: 18px;
   font-style: italic;
   line-height: 30px;
@@ -273,7 +276,7 @@
   width: 20px;
   height: 2px;
   content: '';
-  background-color: rgb(202 198 195);
+  background-color: #d3d3d3;
   position: absolute;
 }
 
@@ -283,13 +286,13 @@
   margin: 0 auto;
   font-size: 18px;
   background: no-repeat;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #d3d3d3;
   display: block;
-  box-shadow: 0 0 51px -15px black;
+  box-shadow: 0 0 51px -15px #272a31;
 }
 
 .fa-caret-down {
-  color: #f16755;
+  color: #ec5242;
 }
 
 .partner {

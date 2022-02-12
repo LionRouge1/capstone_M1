@@ -17,14 +17,27 @@ humber.addEventListener('click', () => {
 });
 
 // active page
-let count = 0;
+let count = 5;
 const Lks = document.links;
 const page = document.URL;
 
-for (let i = 1; i < 6; i += 1) {
+for (let i = 6; i < 11; i += 1) {
   if (Lks[i].href === page) {
     count = i;
   }
 }
 
-document.links[count].className = 'active';
+if (document.body.clientWidth > 800) {
+  document.links[count].style.color = '#ec5242';
+  document.links[count].style.fontWeight = '900';
+}
+//   Fixed header on scroll
+const header = document.querySelector('.white_bar');
+const posit = header.offsetTop;
+window.onscroll = () => {
+  if (window.pageYOffset > posit) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
