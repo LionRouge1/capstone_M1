@@ -18,7 +18,8 @@
 
 For the link to the live demo, [Click here](https://lionrouge1.github.io/capstone_M1/)
 
-
+## Video link
+Link of video, [Here](https://www.loom.com/share/a52a9d49d19c4daf87b9f66393f6e7af)
 ## Authors
 
 👤 **Author1**
