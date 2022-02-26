@@ -24,9 +24,9 @@ Link of video, [Here](https://www.loom.com/share/a52a9d49d19c4daf87b9f66393f6e7a
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/LionRouge1)
-- Twitter: [@twitterhandle](https://twitter.com/Matchoudi1)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/matchoudi)
+- GitHub: [Matchoudi](https://github.com/LionRouge1)
+- Twitter: [Matchoudi](https://twitter.com/Matchoudi1)
+- LinkedIn: [Matchoudi](www.linkedin.com/in/matchoudi)
 
 
 ## 🤝 Contributing
