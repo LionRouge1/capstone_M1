@@ -26,7 +26,7 @@ Link of video, [Here](https://www.loom.com/share/a52a9d49d19c4daf87b9f66393f6e7a
 
 - GitHub: [Matchoudi](https://github.com/LionRouge1)
 - Twitter: [Matchoudi](https://twitter.com/Matchoudi1)
-- LinkedIn: [Matchoudi](www.linkedin.com/in/matchoudi)
+- LinkedIn: [Matchoudi](https://www.linkedin.com/in/matchoudi/)
 
 
 ## 🤝 Contributing
