@@ -16,7 +16,7 @@ humber.addEventListener('click', () => {
   }
 });
 
-// active page
+// Function to fund the active page
 let count = 5;
 const Lks = document.links;
 const page = document.URL;
@@ -31,6 +31,7 @@ if (document.body.clientWidth > 800) {
   document.links[count].style.color = '#ec5242';
   document.links[count].style.fontWeight = '900';
 }
+
 //   Fixed header on scroll
 const header = document.querySelector('.white_bar');
 const posit = header.offsetTop;

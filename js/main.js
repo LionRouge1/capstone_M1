@@ -37,6 +37,7 @@ const speaker = [
   },
 ];
 const containSpeaker = document.querySelector('.contain_speaker');
+
 function ftnSpeaker(n) {
   const cardSpeaker = `
     <div class="speaker">
@@ -60,7 +61,7 @@ if (document.body.clientWidth <= 800) {
   }
 }
 
-//  button more
+// Function for button more
 const button = document.getElementById('more');
 const Mber = document.querySelectorAll('.speaker');
 
