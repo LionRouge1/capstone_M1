@@ -2,7 +2,7 @@
 
 # Global School Conferance 
 
-> This project is about internation school were every children from different county and continent can lean as they where in the same class room.
+> Global shool is an online website for school were every students from different countries can lean as they where in the same class room.
 
 ![screenshot](images/Desktop_shot.png)
 ![screenshot](images/mobile_shot.png)
