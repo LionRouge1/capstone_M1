@@ -18,7 +18,7 @@
 
 - `git clone https://github.com/LionRouge1/capstone_M1.git` to clone the repo.
 - `cd capstone_M1.git`
-- Open `index.html` any browser of your choise
+- Open `index.html` on any browser of your choice
 
 # Live Demo
 
