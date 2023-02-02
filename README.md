@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Global School Conferance 
+# Global School Conference 
 
 > Global School is an online website for schools where every student from different countries can learn as if they were in the same classroom.
 
