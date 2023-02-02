@@ -8,19 +8,25 @@
 ![screenshot](images/mobile_shot.png)
 
 
-## Built With
+# Built With
 
 - HTML
 - CSS
 - Javascript
 
-## Live Demo
+# Getting Started
+
+- `git clone https://github.com/LionRouge1/capstone_M1.git` to clone the repo.
+- `cd capstone_M1.git`
+- Open `index.html` any browser of your choise
+
+# Live Demo
 
 The live demo, [Click here](https://lionrouge1.github.io/capstone_M1/)
 
 ## Video link
 Link of video, [Here](https://www.loom.com/share/a52a9d49d19c4daf87b9f66393f6e7af)
-## Authors
+# Authors
 
 👤 **Author1**
 
@@ -35,11 +41,11 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+# Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+# Acknowledgments
 
 - Thanks to Cindy Shin whose design of cc global summit 2015 was used.
 
