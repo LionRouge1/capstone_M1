@@ -2,7 +2,7 @@
 
 # Global School Conferance 
 
-> Global shool is an online website for school were every students from different countries can learn as they where in the same class room.
+> Global School is an online website for schools where every student from different countries can learn as if they were in the same classroom.
 
 ![screenshot](images/Desktop_shot.png)
 ![screenshot](images/mobile_shot.png)
@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-For the link to the live demo, [Click here](https://lionrouge1.github.io/capstone_M1/)
+The live demo, [Click here](https://lionrouge1.github.io/capstone_M1/)
 
 ## Video link
 Link of video, [Here](https://www.loom.com/share/a52a9d49d19c4daf87b9f66393f6e7af)
